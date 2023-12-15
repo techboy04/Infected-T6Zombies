@@ -65,7 +65,7 @@ spawnCurePlatform(x,y,z)
 	{
 		level waittill ("power_on");
 	}
-	cureTrigger setHintString("^7Press ^3&&1 ^7to cure from infection" + "^7 [Cost: " + getdvar("fasttravel_price") + "]");
+	cureTrigger setHintString("^7Press ^3&&1 ^7to cure from infection" + "^7 [Cost: " + getDvarInt("infected_cure_price") + "]");
 	while(1)
 	{
 		cureTrigger waittill( "trigger", i );
