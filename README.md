@@ -16,6 +16,8 @@ When time reaches zero, you are downed.
 - Origins: In the center of the staff room
 - Nuketown: Between the Yellow and Middle house
 
+The cure skull requires power to be on!
+
 ## Configuration
 This mod contains a few configurable options!
 
