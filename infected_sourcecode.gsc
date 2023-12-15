@@ -89,7 +89,7 @@ playerdamagecheck()
 			
 			chance = randomintrange(1, 100);
 			
-			if((chance <= getDvarInt("infected_infect_chance")) && (getDvarInt("infected_start_round") >= level.round_number))
+			if((chance <= getDvarInt("infected_infect_chance")) && (getDvarInt("infected_start_round") <= level.round_number))
 			{
 				if(self.isinfected == 0)
 				{
@@ -335,3 +335,4 @@ BloodInfectHUD()
 		wait 0.1;
 	}
 }
+
